@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <link rel="stylesheet" href="Elysia.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>胡新的个人网站</title>
+    <link rel="stylesheet" href="styles.css"> <!-- 引用样式文件 -->
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <h1 class="main-title">胡新</h1>
+            <p class="intro">我叫胡新，今天只是一个实验，实验我的方法是否可行</p>
+        </div>
+        
+        <div class="character">
+            <h2 class="character-title">Elysia</h2>
+            <p class="character-description">这是爱莉希雅</p>
+        </div>
+
+        <!-- 添加计数器和按钮 -->
+        <div class="counter-section">
+            <button id="countButton">点击我</button>
+            <p>点击次数: <span id="countDisplay">0</span></p>
+        </div>
+    </div>
+
+    <script>
+        let count = 0; // 初始化计数器
+
+        document.getElementById('countButton').addEventListener('click', function() {
+            count++; // 每次点击增加计数
+            document.getElementById('countDisplay').textContent = count; // 更新显示
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #e1c6f7, #f8c2d2);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #deeppink;
+}
+
+.main-title {
+    color: deeppink;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.intro {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.character {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.character-title {
+    color: #8a2be2; /* 深紫色 */
+    font-size: 2em;
+    margin: 0;
+}
+
+.character-description {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+#countButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: deeppink;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#countButton:hover {
+    background-color: #d5006d; /* 悬停效果 */
+}
+
+.counter-section {
+    margin-top: 30px;
+    text-align: center;
+}
